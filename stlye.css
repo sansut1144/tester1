@@ -1,0 +1,120 @@
+html, body {
+    
+    background-color: rgb(97, 80, 80);
+    margin: 0;
+    padding: 0;   
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    font-family: "Kanit", sans-serif;   
+}
+
+
+.bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.top-header {
+     background-color: rgb(46, 44, 44);
+}
+
+.menu-item {
+   color: white;
+   padding: 15px;
+   display: inline-block;
+   text-decoration: none;
+}
+
+
+
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.main-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+
+
+
+
+.box {
+    
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    
+ background-color: rgb(53, 24, 24);
+ padding: 20px;
+ margin: 30px;
+ box-shadow: 0px 0px 123px -7px rgba(0,0,0,0.64);
+-webkit-box-shadow: 0px 0px 123px -7px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 123px -7px rgba(0,0,0,0.64);
+transition: all 0.3s;
+
+}
+
+.box:hover {
+    transform: scale(105%);
+
+
+}   
+
+.image {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+ 
+    width: 100%;
+    transition: all 0.3s;
+
+}
+
+.image:hover {
+    transform: scale(110%);
+
+
+}
+
+
+
+.button {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+ 
+    color: black;
+    background-color:lightgray;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s;
+
+
+
+}
+
+.button:hover {
+    transform: translateY(-5px);
+   
+
+
+}   
+    
+
+.bottom-footer {
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+    text-align: center;
+}
